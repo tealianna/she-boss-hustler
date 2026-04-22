@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Top 20 Side Hustles 2026 | She Boss Hustler</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; background: linear-gradient(135deg, #faf8f6 0%, #f5f0ec 100%); color: #5a5a5a; line-height: 1.8; }
+        .container { max-width: 900px; margin: 0 auto; padding: 60px 30px; }
+        .edit-toggle { position: fixed; top: 20px; right: 20px; background: linear-gradient(135deg, #8b7a6b 0%, #a89a8f 100%); color: white; padding: 12px 24px; border-radius: 50px; border: none; cursor: pointer; font-weight: 600; z-index: 100; box-shadow: 0 4px 15px rgba(139, 122, 107, 0.25); }
+        .edit-toggle:hover { transform: scale(1.05); }
+        .editable { outline: 2px dashed transparent; transition: all 0.2s ease; }
+        .edit-mode .editable { outline-color: #c4a8a0; background-color: rgba(228, 205, 198, 0.15); cursor: text; padding: 3px 5px; border-radius: 3px; }
+        .save-indicator { position: fixed; bottom: 20px; right: 20px; background: white; color: #8b7a6b; padding: 12px 20px; border-radius: 50px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); opacity: 0; transition: opacity 0.3s ease; z-index: 99; }
+        .save-indicator.show { opacity: 1; }
+        .hero { text-align: center; margin-bottom: 80px; }
+        .hero h1 { font-family: 'Dancing Script', cursive; font-size: 4rem; color: #8b7a6b; margin-bottom: 15px; font-weight: 700; }
+        .hero .subtitle { font-family: 'Dancing Script', cursive; font-size: 1.5rem; color: #c4a8a0; margin-bottom: 30px; }
+        .hero .intro { background: rgba(228, 205, 198, 0.3); padding: 40px; border-radius: 20px; margin: 40px 0; }
+        .hero .intro p { font-size: 1.1rem; margin-bottom: 15px; color: #6b5f57; }
+        .story-box { background: linear-gradient(135deg, rgba(228, 205, 198, 0.2) 0%, rgba(238, 220, 210, 0.2) 100%); padding: 30px; border-radius: 15px; border-left: 4px solid #c4a8a0; margin: 30px 0; font-style: italic; color: #7a6d64; }
+        .disclaimer { background: rgba(196, 168, 160, 0.15); padding: 20px 25px; border-radius: 12px; margin: 30px 0; border-left: 4px solid #c4a8a0; }
+        .disclaimer p { font-size: 0.95rem; color: #7a6d64; line-height: 1.6; }
+        .toc { background: white; padding: 30px; border-radius: 15px; border: 1px solid rgba(196, 168, 160, 0.2); margin: 40px 0; }
+        .toc h3 { font-family: 'Dancing Script', cursive; font-size: 1.5rem; color: #8b7a6b; margin-bottom: 20px; }
+        .toc-list { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        .toc-item { list-style: none; }
+        .toc-item a { color: #c4a8a0; text-decoration: none; font-weight: 500; transition: color 0.2s; }
+        .toc-item a:hover { color: #8b7a6b; text-decoration: underline; }
+        .section { margin-bottom: 60px; }
+        .section-title { font-family: 'Dancing Script', cursive; font-size: 2rem; color: #8b7a6b; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 2px solid rgba(196, 168, 160, 0.2); scroll-margin-top: 80px; }
+        .hustle-card { background: white; padding: 35px; margin-bottom: 25px; border-radius: 15px; border: 1px solid rgba(196, 168, 160, 0.15); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); }
+        .hustle-card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(139, 122, 107, 0.1); }
+        .hustle-number { font-family: 'Dancing Script', cursive; font-size: 2.5rem; color: #c4a8a0; font-weight: 700; }
+        .hustle-name { font-size: 1.5rem; color: #8b7a6b; font-weight: 600; margin: 10px 0; scroll-margin-top: 100px; }
+        .hustle-vibe { font-family: 'Dancing Script', cursive; font-size: 0.95rem; color: #c4a8a0; margin-bottom: 20px; font-style: italic; }
+        .hustle-details { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; padding-top: 20px; border-top: 1px solid rgba(196, 168, 160, 0.1); }
+        .detail-item { display: flex; gap: 10px; }
+        .detail-icon { font-size: 1.3rem; min-width: 30px; }
+        .detail-content h4 { font-size: 0.9rem; color: #8b7a6b; font-weight: 600; margin-bottom: 3px; }
+        .detail-content p { font-size: 0.95rem; color: #7a6d64; }
+        .highlight-box { background: linear-gradient(135deg, rgba(238, 220, 210, 0.3), rgba(228, 205, 198, 0.2)); padding: 15px 20px; border-radius: 10px; margin-top: 15px; border-left: 3px solid #c4a8a0; }
+        .highlight-box p { font-size: 0.95rem; color: #6b5f57; margin: 5px 0; }
+        .footer { text-align: center; padding: 60px 20px; border-top: 1px solid rgba(196, 168, 160, 0.2); margin-top: 80px; }
+        .footer h3 { font-family: 'Dancing Script', cursive; font-size: 1.8rem; color: #8b7a6b; margin-bottom: 15px; }
+        .affiliate-section { background: white; padding: 40px; border-radius: 15px; border: 1px solid rgba(196, 168, 160, 0.2); margin-top: 40px; }
+        .affiliate-section h2 { font-family: 'Dancing Script', cursive; font-size: 1.8rem; color: #8b7a6b; margin-bottom: 30px; }
+        .affiliate-links { list-style: none; display: grid; gap: 15px; }
+        .affiliate-links li { background: rgba(228, 205, 198, 0.1); padding: 15px 20px; border-radius: 10px; border-left: 3px solid #c4a8a0; }
+        .affiliate-links strong { color: #8b7a6b; }
+        @media (max-width: 768px) { .hero h1 { font-size: 2.5rem; } .hustle-details { grid-template-columns: 1fr; } .container { padding: 30px 20px; } .toc-list { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <button class="edit-toggle" onclick="toggleEditMode()">✏️ Edit Mode</button>
+    <div class="save-indicator" id="saveIndicator">✅ Saved!</div>
+
+    <div class="container">
+        <!-- HERO SECTION -->
+        <div class="hero">
+            <h1 class="editable">Top 20 Side Hustles</h1>
+            <p class="subtitle editable">for 2026</p>
+            <div class="intro">
+                <p class="editable">Hey, I'm <strong>Tealianna</strong>. 👋</p>
+                <p class="editable">I've made <strong>$47K in one year</strong> from side hustles + SaaS while working as a part-time gymnastics coach. This guide breaks down <strong>exactly what works</strong> — what actually pays, how much time you need, and where to start.</p>
+                <p class="editable" style="margin-top: 20px; font-style: italic;">No fluff. No "make $10K overnight" lies. Just real.</p>
+            </div>
+            
+            <!-- AFFILIATE DISCLAIMER (TOP) -->
+            <div class="disclaimer">
+                <p><strong>📝 Just So You Know:</strong> Some links throughout this guide are affiliate links, which means if you sign up or purchase through them, I earn a small commission (at zero extra cost to you). I only recommend tools and services I genuinely use and love. Thank you in advance for supporting me through those links — it means the world! 💙</p>
+            </div>
+
+            <div class="story-box">
+                <p class="editable">💭 Real quick: I learned a lot of this stuff during a year and a half in Puerto Rico. Building products remotely, testing different hustles, figuring out what actually scales and what's just noise. That's where a lot of this comes from.</p>
+            </div>
+        </div>
+
+        <!-- TABLE OF CONTENTS -->
+        <div class="toc">
+            <h3>📍 Jump To A Hustle:</h3>
+            <ul class="toc-list">
+                <li class="toc-item"><a href="#tier1-automation">🔥 #1 Automation (Make/Zapier)</a></li>
+                <li class="toc-item"><a href="#tier1-webdesign">🌐 #2 Web Design (Lovable)</a></li>
+                <li class="toc-item"><a href="#tier1-products">✨ #3 Digital Products</a></li>
+                <li class="toc-item"><a href="#tier2-daytrading">💰 #4 Day Trading</a></li>
+                <li class="toc-item"><a href="#tier2-crypto">🪙 #5 Crypto & NFTs</a></li>
+                <li class="toc-item"><a href="#tier3-ugc">🎬 #6 UGC</a></li>
+                <li class="toc-item"><a href="#tier3-socialmedia">📱 #7 Social Media</a></li>
+                <li class="toc-item"><a href="#tier3-affiliate">🔗 #8 Affiliate Marketing</a></li>
+                <li class="toc-item"><a href="#tier4-delivery">🚗 #9 DoorDash/Uber Eats</a></li>
+                <li class="toc-item"><a href="#tier4-petsitting">🐕 #10 Pet Sitting</a></li>
+                <li class="toc-item"><a href="#tier4-babysitting">👶 #11 Babysitting</a></li>
+                <li class="toc-item"><a href="#tier4-taskrabbit">🔧 #12 TaskRabbit</a></li>
+                <li class="toc-item"><a href="#tier4-freelance">💻 #13 Freelance (Fiverr/Upwork)</a></li>
+                <li class="toc-item"><a href="#tier4-va">👩‍💼 #14 Virtual Assistant</a></li>
+                <li class="toc-item"><a href="#tier4-copywriting">✍️ #15 Copywriting</a></li>
+                <li class="toc-item"><a href="#tier4-coaching">👑 #16 Coaching</a></li>
+                <li class="toc-item"><a href="#tier4-workshops">🎓 #17 Group Classes</a></li>
+                <li class="toc-item"><a href="#tier4-tutoring">📚 #18 Online Tutoring</a></li>
+                <li class="toc-item"><a href="#tier4-digproducts">🎁 #19 Digital Products (Expansion)</a></li>
+                <li class="toc-item"><a href="#tier4-youtube">🌟 #20 YouTube/Blog</a></li>
+            </ul>
+        </div>
+
+        <!-- TIER 1: AUTOMATION & WEB/APPS (1-3) -->
+        <div class="section">
+            <h2 class="section-title editable">🔥 TIER 1: Automation Builds & Website/App Development (My Primary Income)</h2>
+
+            <div class="hustle-card" id="tier1-automation">
+                <div class="hustle-number editable">1</div>
+                <div class="hustle-name editable">Workflow Automation (Make / Zapier / n8n)</div>
+                <div class="hustle-vibe editable">Build systems that run businesses while you sleep</div>
+                <div class="hustle-details">
+                    <div class="detail-item"><span class="detail-icon">💰</span><div class="detail-content"><h4>Earning Potential</h4><p class="editable">$1K–$5K+/month</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">⏱️</span><div class="detail-content"><h4>Time</h4><p class="editable">Project-based</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">💵</span><div class="detail-content"><h4>Startup</h4><p class="editable">$0–$100</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">🚀</span><div class="detail-content"><h4>Per Project</h4><p class="editable">$500–$5K+</p></div></div>
+                </div>
+                <div class="highlight-box">
+                    <p><span style="font-weight: 600; color: #8b7a6b;">🔥 THIS IS MY WHOLE THING</span></p>
+                    <p class="editable" style="margin-top: 10px;"><strong>🔥 HERE'S MY STORY WITH AUTOMATION:</strong> I discovered workflow automation by accident. It was Covid and just like everyone else I was trying to figure out my life path. I started a business and quickly realized it was really a 24/7 job. I was freelancing, managing multiple clients, and drowning in manual tasks — sending follow-up emails, updating spreadsheets, moving data between apps, creating calendar events, managing submissions. I realized: "Why am I doing this repetitively?" That's when I learned Make.com (then called Integromat). Within weeks, I built my first automation: a client submission form → Google Sheet → Slack notification → Calendar event. One workflow saved me 5 hours a week. I realized businesses face this same problem at SCALE. That's when I started charging for it.<br><br><strong>What I've built for clients:</strong> A company needed their shipping process automated — orders came in through multiple channels, they manually entered tracking into their system, then notified customers. I built: order triggers → EasyPost label generation → FedEx tracking → Google Calendar notifications → ClickUp task creation → customer email notification. One workflow replaced 15 hours of weekly manual work. They paid $3,500. I spent 8 hours. That's $437/hour.<br><br>GoHighLevel clients needed contact management automation — new leads weren't being followed up, data wasn't flowing between systems. I built: form submission → contact creation → lookup in QuickBooks → create opportunity → send email sequence → calendar reminder. Transforms chaos into systematic process.<br><br><strong>The education part:</strong> Most businesses don't even realize automation exists. They think "that's just how business is." Your job is educating them while solving their problem. When you show a business owner that you can save their team 10 hours/week, that's $500+/week in labor costs saved. They'll happily pay $2K–$5K upfront.<br><br><strong>How to start:</strong> Learn Make.com (free tier available). Start with simple automations: email → spreadsheet, form → email, Slack → task manager. Build 3–5 portfolios. Pitch small businesses on Upwork saying "I automate manual processes." First clients at $500. After 5 projects with reviews, charge $1.5K–$3K. After 10 projects, charge $3K–$5K+. The skill compounds — each workflow you build teaches you patterns you apply to the next client, making you faster and more valuable.</p>
+                </div>
+            </div>
+
+            <div class="hustle-card" id="tier1-webdesign">
+                <div class="hustle-number editable">2</div>
+                <div class="hustle-name editable">Web Design & Website Building (Lovable, Webflow)</div>
+                <div class="hustle-vibe editable">Every business needs a website (and they'll pay for it)</div>
+                <div class="hustle-details">
+                    <div class="detail-item"><span class="detail-icon">💰</span><div class="detail-content"><h4>Earning Potential</h4><p class="editable">$500–$3K+ per project</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">⏱️</span><div class="detail-content"><h4>Time Per Project</h4><p class="editable">20–40 hours</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">💵</span><div class="detail-content"><h4>Startup Costs</h4><p class="editable">$0–$300/yr</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">🚀</span><div class="detail-content"><h4>Tools</h4><p class="editable">Lovable, Webflow</p></div></div>
+                </div>
+                <div class="highlight-box">
+                    <p><span style="font-weight: 600; color: #8b7a6b;">🌐 My bread & butter</span></p>
+                    <p class="editable" style="margin-top: 10px;"><strong>My web design journey:</strong> I used to think you needed to code to build websites. Then I discovered Lovable — a no-code AI platform that lets you build professional, custom websites in DAYS instead of weeks. I built Pairly (our couples budgeting PWA with bills tracking, Pomodoro timer, Stripe payments, Plaid bank integrations, push notifications) entirely in Lovable + Supabase + Stripe. No coding required. ReviewShield (AI reputation management SaaS) same thing — Lovable frontend, Supabase backend, Stripe payments. Both products are live, making revenue, and I didn't write a single line of code.<br><br><strong>Why this matters for your business:</strong> Every business needs a website. Most pay $2K–$10K for mediocre WordPress sites or $500–$1K for template sites that look generic. You can build custom, beautiful, functional websites in 15–40 hours using Lovable, charge $1.5K–$3K, and keep 90% profit margins. A client pays you $2K. Lovable costs $0. Supabase costs $5/month. Your margin? Basically 100%.<br><br><strong>Real pricing breakdown:</strong> Simple 5-page site (about, services, contact, portfolio, blog) = 15–20 hours = $1.5K–$2K. e-commerce site with Stripe integration = 30–40 hours = $3K+. Booking site (like Calendly integration) = 20–30 hours = $2K–$2.5K. You're not coding; you're designing and connecting integrations. Way faster than traditional web dev.<br><br><strong>The progression:</strong> First client, maybe you take 30 hours and charge $1.5K ($50/hr). By your 3rd client, you've got templates and workflows — same site in 20 hours. By your 10th client, you're building in 15 hours. Same price, but now you're making $133/hour. That's the power of systematization.<br><br><strong>How to market it:</strong> Target local businesses (contractors, salons, consultants, coaches) on Facebook or directly. Show them Pairly and ReviewShield as proof you can build real products. Say: "Custom website built in 2 weeks, $1.5K–$2K, includes SEO basics and Stripe payments if needed." You'll have clients booking within days.</p>
+                </div>
+            </div>
+
+            <div class="hustle-card" id="tier1-products">
+                <div class="hustle-number editable">3</div>
+                <div class="hustle-name editable">Digital Products (Guides, Templates, Automation Workflows)</div>
+                <div class="hustle-vibe editable">Create once, sell forever</div>
+                <div class="hustle-details">
+                    <div class="detail-item"><span class="detail-icon">💰</span><div class="detail-content"><h4>Earning Potential</h4><p class="editable">$500–$10K+/month</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">⏱️</span><div class="detail-content"><h4>Creation Time</h4><p class="editable">10–50 hours (one time!)</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">💵</span><div class="detail-content"><h4>Startup Costs</h4><p class="editable">$0</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">🚀</span><div class="detail-content"><h4>Price Range</h4><p class="editable">$27–$297</p></div></div>
+                </div>
+                <div class="highlight-box">
+                    <p><span style="font-weight: 600; color: #8b7a6b;">✨ The dream income</span></p>
+                    <p class="editable" style="margin-top: 10px;"><strong>The math that changed my perspective:</strong> If I coach one person for 2 hours at $300/hr = $600. But if I create a guide, sell it to 100 people at $27, that's $2,700 from the same work. If I price it at $97 (still super affordable), that's $9,700. A course at $197 selling to 50 people = $9,850. Digital products don't scale with your TIME — they scale with TRAFFIC. That's the game-changer.<br><br><strong>What digital products look like:</strong> <br>• Guides ($27–$49): PDF checklists, step-by-step walkthroughs, "How to Build Your First Automation" in 20 pages<br>• Templates ($37–$79): Notion templates (budgeting, task management), Google Sheets (invoice tracker, expense tracker), Canva designs<br>• Courses ($97–$297): Video-based with modules, worksheets, community access, lifetime updates<br>• Bundles ($149–$199): Multiple products together at a discount<br><br><strong>Why I'm creating She Boss Hustler:</strong> After making $47K from various hustles, I realized the biggest money isn't from trading time for dollars (freelancing, coaching hourly rates). The biggest money comes from creating ONCE and selling MANY times. That's why I'm building She Boss Hustler — a complete education platform teaching women the exact hustles I use.<br><br><strong>My product roadmap for She Boss Hustler:</strong> [TO BE UPDATED WITH YOUR FINAL PRODUCT DECISIONS] — I'll be creating guides, templates, and courses on the specific hustles you want to teach. My goal: 5–10 products generating $3K–$5K/month passively while I do other work.<br><br><strong>The psychological shift:</strong> Most people see products as "one-time effort." Wrong. They're ongoing assets. You launch a guide in month 1. In month 5, people still buy it. In year 2, people STILL buy it. Old YouTube videos, old blog posts, old guides — they're STILL earning. This is wealth building, not income trading.<br><br><strong>Platform I use:</strong> Gumroad. Setup takes 10 minutes. Upload your PDF, set price, Gumroad takes 10% commission, you keep 90%. No inventory, no shipping, no customer service. Complete passive income once set up.<br><br><strong>How to start:</strong> Identify what you know that other people will pay for. Price it $27–$97 to start (low barrier = more sales = proof of concept). Sell 10 copies and you've made $270–$970 from knowledge you already have. Use that money to create product #2. Stack products, let them compound, and you've built a business that doesn't require your time.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TIER 2: DAY TRADING (4-5) -->
+        <div class="section">
+            <h2 class="section-title editable">💰 TIER 2: Day Trading & Crypto (My Income Stream + Investment Vehicles)</h2>
+
+            <div class="hustle-card" id="tier2-daytrading">
+                <div class="hustle-number editable">4</div>
+                <div class="hustle-name editable">Day Trading (FREE Community with Live Education & Daily Signals)</div>
+                <div class="hustle-vibe editable">Learn + earn from daily market moves with live support</div>
+                <div class="hustle-details">
+                    <div class="detail-item"><span class="detail-icon">💰</span><div class="detail-content"><h4>Earning Potential</h4><p class="editable">$500–$5K+/month (unlimited potential)</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">⏱️</span><div class="detail-content"><h4>Time</h4><p class="editable">2–4 hours/day (market hours)</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">💵</span><div class="detail-content"><h4>Startup</h4><p class="editable">Capital required ($500+)</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">🚀</span><div class="detail-content"><h4>Community</h4><p class="editable">FREE access</p></div></div>
+                </div>
+                <div class="highlight-box">
+                    <p><span style="font-weight: 600; color: #8b7a6b;">🔥 MY FREE COMMUNITY</span></p>
+                    <p class="editable" style="margin-top: 10px;"><strong>Why I partnered with a FREE day trading community:</strong> Most people try day trading alone, blow up their account, and quit. I built a FREE community because I want to change that. With 6 and 7 figure traders teaching live during market hours, sending daily signals directly to your phone, and providing real-time support within the community, Why free? Because my goal is building a community of successful traders who know, like, and trust me. That trust opens doors to coaching, masterclasses, and premium education later.<br><br><strong>The trading education most people are missing:</strong> Retail traders lose money because they trade on emotion, chase losses, don't have a plan, and don't understand risk management. In my community, we teach: technical analysis (reading charts, identifying patterns), risk management (position sizing, stop losses), psychology (staying calm during losses), and a repeatable strategy that works in trending or ranging markets.<br><br><strong>Real income potential:</strong> If you start with $1,000 capital and average $50–$100/day profit, that's $1K–$2K/month. If you grow to $5,000 capital and same daily average, that's $5K–$10K/month. The beautiful part? It's YOUR capital making money for YOU. You're not dependent on someone else paying you. You control the income.<br><br><strong>Time commitment:</strong> Market hours are 9:30am–4pm EST. You don't need to be in all day — most profitable moves happen in the first hour (9:30am–10:30am) and last hour (3pm–4pm). So 2–4 hours/day focused trading can generate consistent income.<br><br><strong>Why I teach this:</strong> After making $47K from various hustles, day trading became one of my most consistent income streams because it's SKILL-BASED. The better your skills, the more you earn. No cap. You can't earn more than $50/hr from freelancing on Upwork (well, you can, but there's a ceiling). In day trading, as you improve, your daily targets grow. That's scalable income.<br><br><strong>How to join:</strong> Sign up for my FREE community, get access to live education, daily signals, trading setups, and support. After you've been trading successfully in the community for 2–3 months, we offer premium education and 1-on-1 coaching if you want deeper mentorship. But the foundation? Completely free and legitimate.</p>
+                </div>
+            </div>
+
+            <div class="hustle-card" id="tier2-crypto">
+                <div class="hustle-number editable">5</div>
+                <div class="hustle-name editable">Crypto & NFTs (Advanced)</div>
+                <div class="hustle-vibe editable">Risky, but potentially high reward</div>
+                <div class="hustle-details">
+                    <div class="detail-item"><span class="detail-icon">⚠️</span><div class="detail-content"><h4>Real Talk</h4><p class="editable">Volatility is insane</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">📚</span><div class="detail-content"><h4>Learning Curve</h4><p class="editable">Steep</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">💵</span><div class="detail-content"><h4>Start Small</h4><p class="editable">Only invest what you can lose</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">🎯</span><div class="detail-content"><h4>Time</h4><p class="editable">Can be intense</p></div></div>
+                </div>
+                <div class="highlight-box">
+                    <p><span style="font-weight: 600; color: #8b7a6b;">💡 Long-term wealth with high risk</span></p>
+                    <p class="editable" style="margin-top: 10px;"><strong>The risks you need to understand:</strong> Crypto is VOLATILE. Bitcoin dropped 60% in 2022. Ethereum swung $2K in a week. If you can't handle 30–50% swings without panic selling, crypto isn't for you. I've seen people make $10K and lose it all in days because they got greedy or emotional. This is not like index fund investing where you can "set and forget."<br><br><strong>My personal crypto losses & honest take:</strong> In the beginning of my crypto journey, I've personally made $10K and lose it all in days because I got greedy or emotional. This is not like index fund investing where you can "set and forget." I don't focus heavily on crypto anymore due to market conditions BUT my approach is earned income FIRST, then invest your income. I'd rather spend time building automation (which directly makes money) than speculating on crypto.<br><br><strong>Why I recommend doing hustles first:</strong> If you have $5,000 to invest and you're torn between: (A) investing in crypto, or (B) learning automation and building a workflow business that generates $500/month, choose B. Why? Because $500/month * 12 months = $6,000/year from YOUR SKILL. That's a 120% return on your knowledge investment, plus you OWN the skill. Crypto can go to zero. Your skills can't.<br><br><strong>THEN use crypto as wealth storage:</strong> After you've made serious money from hustles (like $5K–$10K/month), THEN you can allocate a portion to crypto for wealth diversification. Put $2,000 into Bitcoin, $2,000 into Ethereum, hold it, don't touch it. You're not trading — you're storing value in an uncensorable asset. Over 5–10 years, that could appreciate significantly.<br><br><strong>Red flags to avoid:</strong> <br>• Anyone guaranteeing returns ("guaranteed 10% monthly" = SCAM)<br>• Shitcoin projects with celebrity endorsers (usually pump and dumps)<br>• DeFi platforms promising 20% APY (high yield = high risk)<br>• Anyone pushing you to invest quickly ("limited time offer" = manipulation)<br><br><strong>My advice:</strong> Learn Bitcoin and Ethereum deeply. Understand blockchain technology. Read whitepapers. THEN decide if crypto fits your risk tolerance. Don't invest because your friend made $10K — invest because you understand the asset. Start with $100–$500, not your life savings. And NEVER invest money you need in the next 5 years.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TIER 3: CONTENT CREATION & UGC (6-8) -->
+        <div class="section">
+            <h2 class="section-title editable">🎬 TIER 3: Content Creation & UGC</h2>
+
+            <div class="hustle-card" id="tier3-ugc">
+                <div class="hustle-number editable">6</div>
+                <div class="hustle-name editable">User-Generated Content (UGC)</div>
+                <div class="hustle-vibe editable">Be the authentic voice brands are begging for</div>
+                <div class="hustle-details">
+                    <div class="detail-item"><span class="detail-icon">💰</span><div class="detail-content"><h4>Earning Potential</h4><p class="editable">$500–$5K/month</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">⏱️</span><div class="detail-content"><h4>Time</h4><p class="editable">5–15 hrs/week</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">💵</span><div class="detail-content"><h4>Startup</h4><p class="editable">$0 (phone)</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">🚀</span><div class="detail-content"><h4>Quick Start</h4><p class="editable">Week 1: Create samples</p></div></div>
+                </div>
+                <div class="highlight-box"><p><span style="font-weight: 600; color: #8b7a6b;">🔥 Solid side hustle</span></p><p class="editable" style="margin-top: 10px;"><strong>Why brands are desperate for UGC creators:</strong> Professional ads feel fake. A TikTok creator filming a product in their apartment with natural lighting feels REAL. People trust real people. Brands know this, so they're paying creators like you to film authentic testimonials for their products. This is actually a GOLDMINE because the barrier to entry is absurdly low.<br><br><strong>What you actually do:</strong> A brand sends you their product (or just a brief description). You film 2–4 short videos (15–30 seconds each) using the product naturally, talking about why it's good, how it solves a problem. That's it. No fancy equipment needed — your phone camera is enough. No following required — brands don't care if you have 100 followers or 100K. They just want authentic-looking footage.<br><br><strong>Real examples of UGC:</strong> Fitness equipment brand: "Show yourself using this resistance band, talk about how it helped your workouts." Tech brand: "Unbox this phone charger, film yourself using it, say how fast the charging is." App: "Download this budgeting app, show yourself using it, talk about how it helps you save money." Supplement brand: "Take this supplement, show yourself during your workout, talk about the energy boost."<br><br><strong>The money:</strong> First UGC videos are $50–$150 if you're new. As you build a portfolio and get higher-quality footage, brands pay $200–$500 per video. If you land 5–10 brands and film 2–3 videos per week, that's $2K–$3K/month easily. And it only takes 30 minutes to film a batch of 4 videos.<br><br><strong>How to get started (right now):</strong><br>1. Pick a niche (fitness, tech, beauty, finance, productivity — whatever you're interested in)<br>2. Create 5–10 sample videos showing different products in your niche (can use products you own, borrow from friends, or just do mock-ups)<br>3. Upload samples to portfolio (Google Drive folder, Notion page, or simple website)<br>4. Apply to UGC platforms: Billo, #paid, The Plug, Insense, Brands Meet Creators<br>5. Or pitch directly to brands on Instagram (DM brand reps saying "I create UGC content")<br>6. Start filming as soon as a brand bites<br><br><strong>Pro tips for higher pay:</strong> Specialize in one niche (tech UGC creators get more $ than general). Build a "style" (certain filter, editing style, thumbnail style) so brands recognize your work. Create sample videos that are higher quality (good lighting, clear audio, professional editing). Brands pay more for quality.<br><br><strong>Why this beats freelancing sites:</strong> On Fiverr/Upwork, you compete on price. On UGC, you compete on QUALITY. If your videos get better results for brands (more clicks, more conversions), they'll pay you $500+ per video. That's $2.5K for filming 5 videos over 2 weeks.</p></div>
+            </div>
+
+            <div class="hustle-card" id="tier3-socialmedia">
+                <div class="hustle-number editable">7</div>
+                <div class="hustle-name editable">TikTok / YouTube / Instagram Monetization</div>
+                <div class="hustle-vibe editable">Turn your audience into income streams</div>
+                <div class="hustle-details">
+                    <div class="detail-item"><span class="detail-icon">💰</span><div class="detail-content"><h4>Earning Potential</h4><p class="editable">$200–$5K+/month</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">⏱️</span><div class="detail-content"><h4>Time to $</h4><p class="editable">3–6 months min</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">💵</span><div class="detail-content"><h4>Startup</h4><p class="editable">$0–$120/yr</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">🚀</span><div class="detail-content"><h4>Reality</h4><p class="editable">Patience required</p></div></div>
+                </div>
+                <div class="highlight-box"><p><span style="font-weight: 600; color: #8b7a6b;">⚠️ Not quick</span></p><p class="editable" style="margin-top: 10px;"><strong>The REAL timeline to social media income (and why most people quit early):</strong> Month 1–2: You post consistently, nobody cares. Your videos get 100 views. Month 3: Still slow, maybe 500 views per video. Month 4–5: Growth accelerates, 5K–10K views. Month 6: You hit milestones (10K followers on TikTok = monetization eligibility). Month 7+: Money actually flows in. This is WHY most people quit — they expect income by month 2, don't see it, and stop. The ones who stay get exponential returns.<br><br><strong>The four income streams that compound:</strong><br>1. <strong>YouTube AdSense ($0.25–$4 per 1K views):</strong> You upload a video, YouTube shows ads, you earn. A video with 100K views = $25–$400. A channel with 1M views/month = $250–$4,000/month from ads ALONE.<br>2. <strong>Brand sponsorships ($1K–$100K+ per video):</strong> Once you have an engaged audience, brands PAY you to mention their product. A TikToker with 100K followers can make $500–$5K per sponsored video. A YouTuber with 500K subs? $5K–$25K per sponsorship.<br>3. <strong>Affiliate marketing (5–30% commission):</strong> You recommend a product with your unique affiliate link. Someone clicks, buys, you earn commission. If you recommend a $297 course at 30% commission and 10 people buy, that's $891 from one recommendation.<br>4. <strong>Your own digital products (90%+ margin):</strong> Once you have an audience, sell your guides, courses, templates directly. $297 course sold to 20 people = $5,940 (your margin). And the audience promotes it for you through word-of-mouth.<br><br><strong>Real math example (100K TikTok followers):</strong> 50 videos/month with 1M total views = $2,500 from ads. 1 sponsorship/month at $3K = $3K. Affiliate recommendations (50 people buy your $197 course at 30% = $2,955). Own products sales (30 people buy your $97 guide at 100% margin = $2,910). Total: ~$11,365/month from ONE platform with a mature audience. That took 12–18 months to build, but NOW it's mostly passive.<br><br><strong>The niche matters:</strong> Finance/crypto creators: high CPM ($5–10 per 1K views). Tech/business creators: high CPM ($3–8 per 1K views). Entertainment/dancing: low CPM ($0.5–2 per 1K views). If you're in a high-CPM niche, a 100K view video makes $500–$1,000. If you're in low-CPM, same video makes $50–$200. So strategic niche choice matters.<br><br><strong>How to actually WIN at social media (not like everyone else):</strong><br>1. <strong>Pick ONE platform only.</strong> Don't split energy between TikTok, YouTube, Instagram, and LinkedIn. Pick ONE and dominate it first. (TikTok grows fastest, YouTube pays best, LinkedIn converts best for B2B.)<br>2. <strong>Pick ONE niche.</strong> Don't post about "anything." Pick automation, UGC, trading, fitness, finance, whatever. Post about ONE thing consistently. You become known for that thing.<br>3. <strong>Post consistently.</strong> 3–5x/week minimum. Every single week. For 6+ months. Without seeing money. Most people fail here.<br>4. <strong>Focus on watch time, not views.</strong> TikTok's algorithm doesn't care how many people watch — it cares HOW LONG they watch. A 30-second video where 90% of viewers watch it all is better than a 10-minute video where half the people leave at 1 minute. Make content so good people can't look away.<br>5. <strong>Optimize for comments.</strong> Algorithm favors videos that get comments (not just likes). Ask questions. Respond to comments. Build community.<br><br><strong>The hard part most people miss:</strong> Building a social media audience is BORING for the first 6 months because you're not making money. You're creating content, uploading, getting 100 views, repeat. Day after day. Month after month. With zero revenue. This is why 99% of people quit. But if you stay? By month 12, you're making $1K–$5K/month. By month 18, you're making $5K–$15K/month. By month 24, you could be making $10K–$30K/month from pure content. That's the REAL story nobody tells you.</p></div>
+            </div>
+
+            <div class="hustle-card" id="tier3-affiliate">
+                <div class="hustle-number editable">8</div>
+                <div class="hustle-name editable">Affiliate Marketing</div>
+                <div class="hustle-vibe editable">Recommend products you love, get paid</div>
+                <div class="hustle-details">
+                    <div class="detail-item"><span class="detail-icon">💰</span><div class="detail-content"><h4>Earning Potential</h4><p class="editable">$100–$5K+/month</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">⏱️</span><div class="detail-content"><h4>Time</h4><p class="editable">Minimal (once set up)</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">💵</span><div class="detail-content"><h4>Startup</h4><p class="editable">$0</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">🚀</span><div class="detail-content"><h4>Commission</h4><p class="editable">5–30% per sale</p></div></div>
+                </div>
+                <div class="highlight-box"><p><span style="font-weight: 600; color: #8b7a6b;">🎯 Pairs with content</span></p><p class="editable" style="margin-top: 10px;"><strong>How affiliate marketing works (and why it's ethical):</strong> You genuinely use a product. You recommend it to your audience with YOUR unique affiliate link. If someone buys through your link, the company credits you and pays commission (usually 5–30%). You're not lying — you're genuinely recommending something you believe in. The customer pays the same price whether they use your link or buy directly. It's a win-win-win: company gets a customer, customer gets a product, you get paid.<br><br><strong>Real examples from MY affiliates (products I genuinely use and recommend):</strong><br><br><strong>Make.com (automation platform):</strong> I use Make constantly. They offer 30% commission per customer referred. If I recommend Make to 100 people and 20 sign up for paid plans at $99/month = $1,980 monthly commission. That's completely passive because Make handles everything — payments, customer service, etc. I just recommend it.<br><br><strong>Lovable (no-code web builder):</strong> I built Pairly and ReviewShield with Lovable. They offer 20–30% commission. If a web design client buys Lovable professional plan ($50/month) through my link = $10–15 commission/month per client. Multiply by 20 clients = $200–$300/month ongoing commission for zero additional work.<br><br><strong>Supabase (database backend):</strong> Every web app I build uses Supabase. I recommend it to other builders. 10% commission, but the annual contracts are $1000+ each. One referral = $100–$200 commission once.<br><br><strong>Stripe (payment processing):</strong> Every SaaS project needs Stripe. They offer referral rewards (not straight commission, but credits that turn into cash). Referring 3 businesses signing up = $1,000+ in Stripe credits/referral fees.<br><br><strong>Why this scales:</strong> I'm not trading time for money. I'm recommending products I'd recommend anyway. The income is COMPLETELY passive — I don't need to do anything after the recommendation. The company makes money, customer gets value, I get paid. It compounds because every recommendation you make to 1,000 people has some % who buy, generating revenue on autopilot.<br><br><strong>The key insight most people miss:</strong> You DON'T need a huge audience for affiliate marketing to work. If you have 500 highly engaged followers in a specific niche (automation, SaaS, freelancing), you might make $1K–$5K/month in affiliate revenue because your followers TRUST YOU and CONVERT well. Someone with 100K random followers might make less because the audience isn't engaged or relevant. It's about audience quality, not size.<br><br><strong>How to find affiliate programs:</strong> Most SaaS companies have affiliate programs (check their footer: "Affiliates" or "Partners"). ClickBank and ShareASale are affiliate networks with thousands of products. Amazon Associates (literally recommend anything on Amazon, earn 3–10% commission). Influencer networks like Impact or Impact Radius connect you with brands. Pat Flynn's website (smartpassiveincome.com) has a directory of legitimate affiliate programs.<br><br><strong>The ethics part (important):</strong> ONLY recommend products you actually use and believe in. If you recommend garbage just for commission, your audience will figure it out and stop trusting you. Trust is your asset. Losing trust = losing all future earning potential from that audience. So only promote things you'd tell your best friend about.</p></div>
+            </div>
+        </div>
+
+        <!-- TIER 4: ALL OTHER HUSTLES (9-20) -->
+        <div class="section">
+            <h2 class="section-title editable">💼 TIER 4: All Other Hustles (9–20)</h2>
+
+            <div class="hustle-card" id="tier4-delivery">
+                <div class="hustle-number editable">9</div>
+                <div class="hustle-name editable">DoorDash / Uber Eats / Instacart</div>
+                <div class="hustle-vibe editable">Flexible, start this week, cash flows fast</div>
+                <div class="hustle-details">
+                    <div class="detail-item"><span class="detail-icon">💰</span><div class="detail-content"><h4>Earning</h4><p class="editable">$400–$1.2K/month</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">⏱️</span><div class="detail-content"><h4>Time</h4><p class="editable">5–15 hrs/week</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">💵</span><div class="detail-content"><h4>Startup</h4><p class="editable">$0 (car req)</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">🚀</span><div class="detail-content"><h4>Start</h4><p class="editable">This week</p></div></div>
+                </div>
+                <div class="highlight-box"><p class="editable"><strong>Why delivery is good as SECONDARY hustle:</strong> It's flexible. Immediate cash (weekly payments). Zero startup/skills. But it's physically demanding and caps at $2K–$2.5K/month unless working crazy hours. Use delivery income to fund PRIMARY hustles (automation, freelancing, digital products). Spend 15 hrs/week on delivery ($500–$700), 25 hrs/week on automation/web design ($1.5K–$2.5K), total $2K–$3.2K/month with diversified income.<br><br><strong>The delivery reality:</strong> Most drivers make $400–$600/month working randomly or inefficiently. Smart drivers make $1.5K–$3K/month because they've OPTIMIZED. Peak hour strategy: Lunch (11am–2pm) and dinner (5pm–9pm) have highest volume and tips. Work ONLY peak hours, make $15–$25/hour instead of $8–$12 all day. Multi-app stacking (game-changer): Use 3–4 apps simultaneously. Get notifications from all, take HIGHEST-PAYING order. If DoorDash = $5 and Uber Eats = $9, take Uber Eats. Setup: Have DoorDash, Uber Eats, Instacart, Grubhub open. During peak hours, accept $9+ orders. Decline $5 orders. Make $25–$35/hour by being selective.<br><br><strong>Gas/vehicle costs:</strong> Track EVERYTHING: gas, maintenance, insurance, wear/tear. IRS lets you deduct $0.67/mile. 200 miles/week = $134 deductions. Over a year = $6,968 tax deductions = ~$2,000 tax savings. Always track mileage with Stride or MileIQ app.</p></div>
+            </div>
+
+            <div class="hustle-card" id="tier4-petsitting">
+                <div class="hustle-number editable">10</div>
+                <div class="hustle-name editable">Rover / Wag (Dog Walking & Pet Sitting)</div>
+                <div class="hustle-vibe editable">Love animals? This pays</div>
+                <div class="hustle-details">
+                    <div class="detail-item"><span class="detail-icon">💰</span><div class="detail-content"><h4>Earning</h4><p class="editable">$500–$2K/month</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">⏱️</span><div class="detail-content"><h4>Time</h4><p class="editable">Flexible</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">💵</span><div class="detail-content"><h4>Startup</h4><p class="editable">$0</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">🚀</span><div class="detail-content"><h4>Reality</h4><p class="editable">Build regular clients</p></div></div>
+                </div>
+                <div class="highlight-box"><p style="font-weight: 600; color: #8b7a6b;">🌟 My secondary hustle</p><p class="editable" style="margin-top: 10px;"><strong>How I stack this:</strong> I do pet sitting Tuesday–Thursday and Sunday (flexible schedule). Spend 2–3 hrs/day on visits, earn $150–$300/day. Leaves Monday, Wednesday, Friday for automation/web design ($500–$2K/day). Total: $1K–$3.5K from pet sitting + $2K–$6K from professional = $3K–$9.5K/month with "fun" income stream.<br><br><strong>Money difference (walks vs sitting):</strong> Walks pay $15–$30/walk = $30–$60/hr. Sitting pays $40–$100+/day OR $50–$150+ overnight. One sitting/day = $40–$100/day = $280–$700/week = $1.1K–$2.8K/month just from daytime sitting.<br><br><strong>The REAL model:</strong> Instead of random walks, BUILD RECURRING CLIENTS. Find 3–5 families needing consistent care. One family at $400/month recurring = stable revenue. Three families = $1,200/month. Then add walks for extra cash. How to get: Start Rover, get 5-star reviews from first 5–10 bookings, RAISE PRICES. Once reviews = raise from $40/day to $60 to $80. Clients who love you don't care about price. Take recurring clients OFF app and manage directly (no Rover commission). $60 sitting becomes $60 pure profit instead of $42.<br><br><strong>Revenue growth:</strong> Mo 1–2: $40/day avg, 3–4 bookings/week = $480–$640/mo. Mo 3–4: $50–60/day, 5–6 bookings/week = $1.2K–$1.8K. Mo 5–6: 3–4 recurring at $50–80/day + walks = $2K–$2.8K. Mo 7+: Locked-in clients = $2K–$3.5K stable.</p></div>
+            </div>
+
+            <div class="hustle-card" id="tier4-babysitting">
+                <div class="hustle-number editable">11</div>
+                <div class="hustle-name editable">Care.com / Babysitting & Nannying</div>
+                <div class="hustle-vibe editable">High pay, consistent income</div>
+                <div class="hustle-details">
+                    <div class="detail-item"><span class="detail-icon">💰</span><div class="detail-content"><h4>Earning</h4><p class="editable">$400–$2K/month</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">⏱️</span><div class="detail-content"><h4>Time</h4><p class="editable">5–25 hrs/week</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">💵</span><div class="detail-content"><h4>Startup</h4><p class="editable">$0–$100</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">🚀</span><div class="detail-content"><h4>Best For</h4><p class="editable">Responsible people</p></div></div>
+                </div>
+                <div class="highlight-box"><p class="editable"><strong>The certification ROI:</strong> CPR/First Aid = $80–$150, 1 day. Parents pay extra $5–$10/hour for certified ($20–$50/week extra). In 2 months, pays for itself. In 1 year, you've made $1,000+ more. Best ROI ever — $120 investment = $1,000+ annual return.<br><br><strong>How to build recurring family clients:</strong> Instead of random nights, find families needing REGULAR care. Maybe afterschool pickup + dinner 3 days/week = 15 hours/week with ONE family. At $20/hr = $300/week = $1,200/month from ONE family. Get 2–3 families on different schedules = $1.8K–$3.6K/month in stable, recurring income.<br><br><strong>Pricing structure:</strong> Babysitting drop-in: $20/hr. Regular schedule (3+ days/week): $22/hr. Overnight sitting (weekends): $80–$150. CPR certified premium: Add $3–5/hr. Additional kids: Add 50% ($10/hr per extra). Real example: One family needs afterschool (3pm–6pm) 4 days/week = 12 hrs/week. At $22/hr = $264/week = $1,056/month. Plus 2 weekend overnights ($100 × 2 = $200). Total: $1,256/month from ONE. Find 2–3 more = $2.5K–$3.7K/month.<br><br><strong>How to find:</strong> Care.com is main platform. Profile + rates = families find YOU. First families lower-paying (testing), but after 5-star reviews, premium families book at higher rates. Pro tips: 1) Response time matters—reply within 1 hour. 2) Clear communication—send daily updates (photos, notes). 3) Be reliable—parents plan life around you. 4) Build referral network—one great family = 3 referrals = 3 more families = $3K+/month from word-of-mouth.</p></div>
+            </div>
+
+            <div class="hustle-card" id="tier4-taskrabbit">
+                <div class="hustle-number editable">12</div>
+                <div class="hustle-name editable">TaskRabbit & Local Services</div>
+                <div class="hustle-vibe editable">Handy? Charge for your superpowers</div>
+                <div class="hustle-details">
+                    <div class="detail-item"><span class="detail-icon">💰</span><div class="detail-content"><h4>Earning</h4><p class="editable">$500–$2K/month</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">⏱️</span><div class="detail-content"><h4>Time</h4><p class="editable">Flexible</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">💵</span><div class="detail-content"><h4>Startup</h4><p class="editable">$0–$100</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">🚀</span><div class="detail-content"><h4>Per Job</h4><p class="editable">$30–$200+</p></div></div>
+                </div>
+                <div class="highlight-box"><p class="editable"><strong>Why generalists make $400–600/month and specialists make $1.5K–$2K+:</strong> TaskRabbit shows top-rated taskers first. Generalists compete on price with 100 others. Specialists DOMINATE their category, get specifically requested.<br><br><strong>Profitable specializations:</strong> Furniture Assembly — IKEA deliveries constant. Charge $80–$150/project (2–3 hrs). Do 5–8/week = $2K–$3K/month. Specialists make $3K–$5K/month. Tech Setup — People buy computers, don't know setup. Charge $100–$200/setup. Do 5–10/month = $500–$2K/month. Home Organization — Charge $50–$100/hr. Projects = $300–$800. Do 2–3/month = $600–$2.4K/month. Handyman — Fix shelves, mount TVs, install lights. Charge $75–$150/hr. Busy handymen make $3K–$5K/month easily.<br><br><strong>Progression:</strong> Mo 1–2: Start $30–50/hr. Do ANY task for reviews. Target 10–15 tasks. Earnings: $300–$500. Mo 3–4: 15–20 reviews. Pick specialty, focus only. Raise to $60–80/hr. Earnings: $800–$1.2K. Mo 5–6: 30–40 reviews in specialty, ranked high. Raise to $90–120/hr. People request you. Earnings: $1.5K–$2K. Mo 7+: 50+ reviews, top-rated, you pick clients. Consistent $1.8K–$3K/month.<br><br><strong>Pro tips:</strong> 1) Niche down FAST. Don't spend 3 months as generalist. 2) Get really good. Assembly expert? Master IKEA. Tech setup? Know Windows/Mac cold. 3) Deliver exceptional service. Show 10 min early. Leave space cleaner/better. Exceed expectations. 4) Build relationships. Regular clients = GOLD. Someone booking you monthly for recurring tasks = stable income. 5) Raise strategically. At 30 reviews + high ratings, raise 10–15%. Keep getting booked? Raise again. THE REAL OPPORTUNITY: TaskRabbit is just PLATFORM. Once you build reputation, take customers OFF-platform (they book directly). Keep 100% instead of 80%. $150 on-platform = $120 to you. Off-platform = $150 to you. This is where specialists really scale.</p></div>
+            </div>
+
+            <div class="hustle-card" id="tier4-freelance">
+                <div class="hustle-number editable">13</div>
+                <div class="hustle-name editable">Freelance on Fiverr / Upwork</div>
+                <div class="hustle-vibe editable">Sell your skills to the world</div>
+                <div class="hustle-details">
+                    <div class="detail-item"><span class="detail-icon">💰</span><div class="detail-content"><h4>Earning</h4><p class="editable">$300–$5K+/month</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">⏱️</span><div class="detail-content"><h4>Time</h4><p class="editable">10–25 hrs/week</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">💵</span><div class="detail-content"><h4>Startup</h4><p class="editable">$0</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">🚀</span><div class="detail-content"><h4>Ramp Up</h4><p class="editable">3–6 months</p></div></div>
+                </div>
+                <div class="highlight-box"><p class="editable"><strong>My freelance journey:</strong> Started at $25/hr doing Make.com automation. Zero reviews, 1,000 competitors. I undercut everyone to get first client. That client loved work, left 5-star review, boom—inquiries came in.<br><br><strong>The progression:</strong> PHASE 1 (Mo 1–3): Building Reviews. Undercut market: $15–25/hr. Get 5–10 clients ASAP. Accept ANY relevant work. Over-deliver EVERY project. Get 5-star reviews (everything). Earnings: $200–400/mo. PHASE 2 (Mo 4–6): Building Proof. 10–15 reviews, 4.9+ rating. Raise to $35–50/hr. Be selective (no low-budget). Focus on quality clients. Build portfolio. Earnings: $800–$1.2K/mo. PHASE 3 (Mo 7–12): Specialist. 25–35 reviews, solid testimonials. Raise to $75–100/hr. People want YOU. Earnings: $1.5K–$2.5K/mo. PHASE 4 (Mo 13+): Premium. 50+ reviews, specialized, proven. Charge $125–200+/hr. Super selective. Focus on retainers. Earnings: $2.5K–$5K+/mo.<br><br><strong>Real income math from my experience:</strong> Mo 1: $25/hr × 40 hrs = $1K. Mo 12: $150/hr × 40 hrs on retainer clients I love = $6K. Same hours, 6x more income. Power of reviews + positioning.<br><br><strong>What makes you hireable:</strong> 1) Specialization. Not "I do automation, web design, copywriting, VA." Say "I build Make.com workflows saving businesses 10+ hrs/week." 2) Case studies. "Built shipping workflow reducing manual data entry 80%, saved client 15 hrs/week." 3) Fast communication. Reply within 1 hour. You win jobs others miss. 4) Clear pricing. "I charge $X for Y deliverable" vs vague hourly rates. 5) Testimonials. Ask every happy client for review. Video testimonials = gold.<br><br><strong>How I use freelancing now:</strong> Only retainer clients (recurring income). Charge $3K–$8K/month per retainer. Take 2–3 retainers max. That's $6K–$24K/month from freelancing alone, working 30–40 hrs/week. MUCH better than hourly at any price.<br><br><strong>Actions RIGHT NOW:</strong> 1) Create Upwork profile highlighting ONE skill. 2) Apply to 10 jobs/day (even slightly underqualified ones). 3) Underprice ($15–25/hr) to get first 5 clients. 4) Over-deliver like your life depends on it. 5) Collect testimonials. 6) Mo 4, raise rates 50%. 7) Mo 7, raise again. 8) By Mo 12, you're making $2K+/month from a skill you learned FREE online.</p></div>
+            </div>
+
+            <div class="hustle-card" id="tier4-va">
+                <div class="hustle-number editable">14</div>
+                <div class="hustle-name editable">Virtual Assistant</div>
+                <div class="hustle-vibe editable">Be the backbone of someone's business</div>
+                <div class="hustle-details">
+                    <div class="detail-item"><span class="detail-icon">💰</span><div class="detail-content"><h4>Earning</h4><p class="editable">$400–$2K/month</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">⏱️</span><div class="detail-content"><h4>Time</h4><p class="editable">10–25 hrs/week</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">💵</span><div class="detail-content"><h4>Startup</h4><p class="editable">$0–$50</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">🚀</span><div class="detail-content"><h4>Income</h4><p class="editable">Monthly retainers</p></div></div>
+                </div>
+                <div class="highlight-box"><p class="editable"><strong>Why VAs make $400/mo (struggling) vs $2K+/mo (thriving):</strong> Difference is SYSTEMS. Struggling VA = random tasks (emails, scheduling, data entry, customer service, social media). Thriving VA = SYSTEMS for each task that scale.<br><br><strong>System concept (game-changer):</strong> Build email templates → reuse for 10 clients. Create scheduling workflow → automate it. Make social media template → use weekly. AUTOMATE what you can, TEMPLATE what you can't, spend time only on high-value work.<br><br><strong>Real system examples:</strong> Email Management: Create 10 templates (welcome, follow-up, objection, closing). Now when client needs emails, customize templates instead of writing. 2 hrs template building = saves 1 hr/week forever. Year = 50+ hrs saved. Scheduling: Create Calendly with client's availability. Clients book directly. You get notifications. Zero back-and-forth. 30 min setup = saves 5 hrs/week forever. Social Media: Create content calendar template. Create post templates. Batch-post 4 weeks in 3 hrs, schedule it, done. 10 hrs process = saves 5 hrs/week forever.<br><br><strong>How this compounds:</strong> Mo 1: 20 hrs/week at $25/hr = $500/week = $2K/mo. Mo 4: Same client now needs 8 hrs/week (you automated 50%). Raise to $40/hr = $320/week = $1,280/mo from ONE client, less work. Now take 3 clients = $3.8K/month vs $2K/month, same hours.<br><br><strong>The retainer model (real money):</strong> Charge clients $500–$2K/month RETAINER for 10–20 hrs/week support. Recurring, predictable income. Three retainers at $500/mo = $1.5K/mo. Three at $1K = $3K/mo. Why: recurring income, predictable scheduling, clients pay premium for consistency.<br><br><strong>Position for $1.5K–$2.5K/month retainers:</strong> 1) Specialize in one business type. "I'm a VA for SaaS founders" or "e-commerce businesses." NOT "anyone." 2) ID 5–10 tasks you'll handle. "Email, scheduling, customer support, content calendar, reports." Not 100 random things. 3) Build systems. Templates, workflows, automation. 4) Charge retainer. "$1,200/month for 15 hrs/week support covering X, Y, Z." NOT "$25/hr." 5) Market to business owners. Upwork, LinkedIn, entrepreneur networks. NOT Fiverr (too cheap).<br><br><strong>Dream VA model:</strong> 3 retainer clients at $1K–$1.5K/month each = $3K–$4.5K/month recurring. 15–20 hrs/week. Zero stress—income stable. Clients love you. You have time for other hustles.</p></div>
+            </div>
+
+            <div class="hustle-card" id="tier4-copywriting">
+                <div class="hustle-number editable">15</div>
+                <div class="hustle-name editable">Copywriting & Content Writing</div>
+                <div class="hustle-vibe editable">Words = money if you know how to sell</div>
+                <div class="hustle-details">
+                    <div class="detail-item"><span class="detail-icon">💰</span><div class="detail-content"><h4>Earning</h4><p class="editable">$500–$3K+/month</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">⏱️</span><div class="detail-content"><h4>Time</h4><p class="editable">10–20 hrs/week</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">💵</span><div class="detail-content"><h4>Startup</h4><p class="editable">$0</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">🚀</span><div class="detail-content"><h4>Portfolio</h4><p class="editable">3–4 months</p></div></div>
+                </div>
+                <div class="highlight-box"><p class="editable"><strong>Why copywriters make $50–$75/hr vs $150–$300+/hr:</strong> Because WORDS SELL. Well-written sales page = 10–30% conversion increase = thousands/millions extra revenue. When you prove you can increase revenue, you're INVALUABLE. They pay premium.<br><br><strong>Real copywriting impact:</strong> E-learning company: Sales page at 2% conversion (100 visitors = 2 sales). Great copywriter rewrites focusing on benefits, social proof, urgency. New: 4.5% conversion. If each sale = $297, that's extra $725/month from 100 visitors. Scale to 10K monthly = $72,500 extra/month. You charged $3K to rewrite = 24x ROI in first month. They pay $3K, $5K, $10K happily.<br><br><strong>What copywriters write:</strong> Sales pages ($297–$2K+ per), Email sequences ($500–$3K), Landing pages ($500–$2K), Product descriptions ($50–$200), Webinar scripts ($1K–$5K), Ad copy ($500–$2K), Blog posts ($200–$500), Social media copy ($25–$100).<br><br><strong>My pricing progression:</strong> Started at $50/hr writing blog posts (10 hrs on $500 series). Now charge $300+/hr, almost never hourly. Instead: "Sales page = $3K. Email sequence = $2K. Landing page = $1.5K." PROJECT prices, not hourly, because VALUE is clear.<br><br><strong>Position for premium rates:</strong> 1) Specialize in ONE industry. "I write sales pages for SaaS companies." NOT "anything." SaaS founders understand ROI, pay $3K–$5K for page increasing conversions. 2) Show results, not work. "Rewrote page, conversion 2%→4.5%, generated $150K extra revenue." 3) Build swipe file. Best work + testimonials + before/after metrics. When you pitch, show proven work. 4) Charge project-based, not hourly. Protects you + clients. 5) Include revisions. "2 rounds included. Additional at $200/round."<br><br><strong>Three types (know which pays best):</strong> Direct Response (HIGHEST): Copy for immediate sales (pages, emails, ads). High ROI = clients pay premium. $2K–$10K+ per project. Brand/Content (MEDIUM): Blog, articles, social, website copy. Lower direct ROI. $500–$2K per project. Freelance Sites (LOWEST): Fiverr, Upwork, race-to-bottom. $25–$200 per project.<br><br><strong>My advice:</strong> AVOID freelance websites. Build direct client base. Find 3–5 SaaS or e-commerce, get 1–2 projects each, do amazing work, get testimonials, raise prices. One $5K project/month = $60K/year from 10 hrs/week. That's $600/hr effective. That's the game.</p></div>
+            </div>
+
+            <div class="hustle-card" id="tier4-coaching">
+                <div class="hustle-number editable">16</div>
+                <div class="hustle-name editable">1-on-1 Coaching & Consulting</div>
+                <div class="hustle-vibe editable">Your experience is worth premium pricing</div>
+                <div class="hustle-details">
+                    <div class="detail-item"><span class="detail-icon">💰</span><div class="detail-content"><h4>Earning</h4><p class="editable">$500–$5K+/month</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">⏱️</span><div class="detail-content"><h4>Time</h4><p class="editable">Flexible</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">💵</span><div class="detail-content"><h4>Startup</h4><p class="editable">$0</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">🚀</span><div class="detail-content"><h4>Rate</h4><p class="editable">$50–$200+/hr</p></div></div>
+                </div>
+                <div class="highlight-box"><p><span style="font-weight: 600; color: #8b7a6b;">👑 Highest paying</span></p><p class="editable" style="margin-top: 10px;"><strong>Why 1-on-1 coaching is highest-leverage model:</strong> You're not selling TIME—you're selling TRANSFORMATION. Business owner paying $500 for 2 hrs isn't paying for hours. They're paying because you'll save $5K in mistakes or make $20K in extra revenue. 40–100x ROI for them. They pay premium because value is exponential.<br><br><strong>My coaching model:</strong> Audit/Assessment: $297–$597 for 1.5–2 hrs. Review their business/skill, ID problems, create custom roadmap. Done. Follow-up calls: $197–$297 for 1-hr strategy calls (after they implement audit). Group coaching: $47–$97/person for group workshop (20 people × $67 = $1,340 for 2 hrs). Premium 1-on-1: $397–$597/month retainer for ongoing monthly calls.<br><br><strong>Real example (my automation coaching):</strong> Business owner books $497 audit (2 hrs). I review processes, find bottlenecks, recommend automation workflows. Create custom roadmap: "Build this first (saves 8 hrs/week), then this (saves 5 hrs/week)." Send Loom video walkthrough. Total time: 2 hrs calls + 30 min prep = 2.5 hrs. They pay $497. That's $199/hr for me. BUT—$497 audit almost ALWAYS leads to them hiring me to BUILD automations ($2K–$5K project). So audit is really $2.5K–$5.5K opportunity.<br><br><strong>Why coaching differs from freelancing:</strong> Freelancer: "I'll build your workflow for $3K." Client: "That costs $3K, need to save up." Coach: "Let me audit first ($497). Then decide if building makes sense." Client: "Perfect, audit." Audit reveals workflow saves $500/week. Client: "Let's build for $3K." Different psychology. Audit removes risk, increases value perception.<br><br><strong>Your positioning (pick ONE niche):</strong> You could coach on: automation, web design, UGC, day trading, copywriting, VA work, gymnastics, etc. For example—automation: "I help service business owners automate manual processes so they scale without hiring. In one 2-hr audit, I ID which workflows to automate first, create custom roadmap, estimate time/cost. Clients save 20+ hrs/week. Audit: $497. Proceed to build: $2K–$5K."<br><br><strong>How to fill calendar:</strong> 1) Start free/cheap ($97–197 audits). Get 5 clients, do great work, get testimonials. 2) Once 3–5 testimonials, raise to $297–$397. 3) At $297+, be selective. Offer to ICP (Ideal Customer Profile): "I work with e-commerce $500K+/year. Audit: $397." 4) 50% audit clients buy your service/product. Every 10 audits = 5 service projects = $10K–$25K in project revenue (plus $4.7K audit revenue). Total: $14.7K–$29.7K from 20 hrs audit + project delivery.<br><br><strong>Dream coaching model:</strong> 4 audits/month at $497 = $2K audits. 50% conversion (2 clients) to $3K projects = $6K. 1 retainer client at $397/month = $397. Total monthly: ~$8.4K from coaching + service, working ~40 hrs/month. That's $210/hr blended with huge profit margins (coaching = 95%+ margin).</p></div>
+            </div>
+
+            <div class="hustle-card" id="tier4-workshops">
+                <div class="hustle-number editable">17</div>
+                <div class="hustle-name editable">Group Classes & Workshops</div>
+                <div class="hustle-vibe editable">Teach many people at once</div>
+                <div class="hustle-details">
+                    <div class="detail-item"><span class="detail-icon">💰</span><div class="detail-content"><h4>Earning</h4><p class="editable">$500–$2K per</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">⏱️</span><div class="detail-content"><h4>Time</h4><p class="editable">3–5 hrs + 2 live</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">💵</span><div class="detail-content"><h4>Startup</h4><p class="editable">$0–$100</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">🚀</span><div class="detail-content"><h4>Per Person</h4><p class="editable">$27–$97</p></div></div>
+                </div>
+                <div class="highlight-box"><p class="editable"><strong>Why group classes = ultimate leverage:</strong> Prepare content ONCE (3–5 hrs). Teach 10–20 people SIMULTANEOUSLY at SAME PRICE you'd charge one. That's 10–20x leverage. Charge $67/person and 15 attend = $1,005 for 2 hrs teaching = $500+/hr. Scale to 3–4 cohorts/quarter = $2K–$4K/month recurring from one workshop.<br><br><strong>Real math examples:</strong> UGC Workshop ($47/person, 20 people): $940/cohort. Monthly = $11,280/year from 8 hrs teaching. Automation Workshop ($97/person, 15 people): $1,455/cohort. 2x/month = $34,920/year. Day Trading ($67/person, 20 people): $1,340/cohort. 2x/month = $32,160/year. Copywriting ($77/person, 18 people): $1,386/cohort. Monthly = $16,632/year.<br><br><strong>Product structure (important):</strong> Most offer ONE-TIME workshops. Smart ones offer: 1) LIVE workshop (full price, limited seats, real-time, Q&A), 2) Replay/self-paced (lower price, unlimited, anytime). ONE workshop = TWO income streams. Live: 15 × $67 = $1,005. Replay (2 months): 10 × $37 = $370. Total: $1,375/iteration.<br><br><strong>Workshop structure:</strong> Pre-Launch (2 weeks): Create landing page + benefits + agenda + testimonials. Promote Instagram, email, LinkedIn. Zoom link. 30-sec teaser. Live (2 hrs): 5 min intro. 80 min core (3 frameworks/tactics). 20 min Q&A. 15 min offer follow-up. Post-Workshop: Send recording. Put on website/Gumroad. Create "Missed it? Get replay" page. Sell replay $17–$37.<br><br><strong>How to fill:</strong> 1) Warm audience first. Email list (100 emails = 10 signups at 10%). Instagram, TikTok, LinkedIn. 2) Create urgency. "Only 20 spots. Early bird $47 (regular $67)." 3) Payment plans. "Full $67 or 2× $37." 4) Strong invitation. "If you want to build UGC portfolio and land $200+ deals in 7 days, join. Limited 20 spots." 5) Lead with results. "Attendees land 2–3 brand partnerships within 30 days."<br><br><strong>Group program evolution:</strong> Instead of one-time, create 4–8 week group coaching ($197–$597/person). 15 people × $297 = $4,455/cohort. 2x/year = $8,910/year. Higher ticket, stickier.<br><br><strong>Why She Boss Hustler workshops make sense:</strong> Host live "Build Your First Automation in 90 Minutes" ($47/person, target 30 = $1,410). Market email, Instagram, LinkedIn. 30% conversion from 300 = 90 signups = $4,230. Replay to 50 at $27 = $1,350. Total: $5,580 from one workshop, 6 hrs work.</p></div>
+            </div>
+
+            <div class="hustle-card" id="tier4-tutoring">
+                <div class="hustle-number editable">18</div>
+                <div class="hustle-name editable">Online Tutoring & Lessons</div>
+                <div class="hustle-vibe editable">One-on-one learning from anywhere</div>
+                <div class="hustle-details">
+                    <div class="detail-item"><span class="detail-icon">💰</span><div class="detail-content"><h4>Earning</h4><p class="editable">$400–$1.5K/month</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">⏱️</span><div class="detail-content"><h4>Time</h4><p class="editable">Flexible</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">💵</span><div class="detail-content"><h4>Startup</h4><p class="editable">$0</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">🚀</span><div class="detail-content"><h4>Rate</h4><p class="editable">$25–$75/hr</p></div></div>
+                </div>
+                <div class="highlight-box"><p class="editable"><strong>Why tutoring is surprisingly lucrative:</strong> Most tutors think "$20/hr, few students, extra cash." Wrong. Right mindset: "I'm specialized educator. I help students achieve outcomes (pass SATs, improve grades, master coding). Charge premium for proven results."<br><br><strong>Platforms (what they pay):</strong> Wyzant: You set rate ($20–$100+/hr). Wyzant takes 25–35%. Good for starting, building reviews. Tutor.com: $14–$22/hr. More stable, less autonomy. Chegg: Variable by demand. $15–$50+/hr. Preply: Very flexible. You set ($5–$100+/hr), takes 33%. Lucrative if specialized. VIPKid (English): $14–$21/hr, English teaching for Chinese. Care.com: You set rate, schedule. 0% initially, then matches clients.<br><br><strong>Specialization hierarchy (what they pay):</strong> General (math, English): $20–$40/hr (saturated). Test prep (SAT, ACT, GRE): $40–$100/hr (specialized, motivated parents). Coding/Programming: $40–$150/hr (CS background valued). Professional certs (CPA, PMP): $50–$150/hr (career advancement). Languages (Mandarin, Spanish): $25–$75/hr (high demand). Music (piano, guitar, vocals): $30–$100+/hr (experienced musicians).<br><br><strong>Progression path:</strong> Mo 1–2: Start $20–25/hr. Build initial reviews. 5–10 students ASAP. Track results: "C→A in 3 mo." Earnings: $200–400/mo. Mo 3–4: Have testimonials, results. Raise to $35–50/hr. Focus on test-prep (higher paying, motivated). Earnings: $800–$1.5K/mo. Mo 5–6: Specialize. "SAT Math specialist" or "Coding tutor beginner." Raise $75–100/hr. People request you. Earnings: $2K–$3K+/mo.<br><br><strong>Math of steady-state:</strong> 5 regular students × 5 hrs/week = 25 hrs/week. At $50/hr avg = $1,250/week = $5K/month. Working 25 hrs/week, flexibility, zero stress. Incredible freedom + income vs full-time job.<br><br><strong>How to get clients (beyond platforms):</strong> 1) Community groups (local Facebook, NextDoor). 2) Ask current students for referrals. 3) Partner with high schools/prep centers. 4) Simple website about what you teach. 5) Google targeting ("SAT tutor near me").<br><br><strong>Pro tips for higher income:</strong> 1) Group tutoring (3 at once paying $20 = $60/hr vs $50 for 1-on-1). 2) Packages ("10-hr package $450 vs $500"). 3) Specialize in high-value subjects (test prep parents pay MORE). 4) Results-based ("100+ point SAT improvement or money back"). 5) Build wait list (demand = raise rates, be selective).<br><br><strong>Why tutoring compounds:</strong> First student tells friends. Friends hire you. They tell friends. 6 months = wait list. Raise rates 50%, people PAY because they want proven specialist. That's when $5K+/month possible from just tutoring.</p></div>
+            </div>
+
+            <div class="hustle-card" id="tier4-digproducts">
+                <div class="hustle-number editable">19</div>
+                <div class="hustle-name editable">Sell Digital Products</div>
+                <div class="hustle-vibe editable">The dream: passive income while you sleep</div>
+                <div class="hustle-details">
+                    <div class="detail-item"><span class="detail-icon">💰</span><div class="detail-content"><h4>Earning</h4><p class="editable">$500–$50K+/year</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">⏱️</span><div class="detail-content"><h4>Creation</h4><p class="editable">5–40 hours</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">💵</span><div class="detail-content"><h4>Startup</h4><p class="editable">$0</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">💎</span><div class="detail-content"><h4>Margin</h4><p class="editable">90%+</p></div></div>
+                </div>
+                <div class="highlight-box"><p><span style="font-weight: 600; color: #8b7a6b;">✨ The whole vibe</span></p><p class="editable" style="margin-top: 10px;"><strong>Why I'm building digital product empire:</strong> Digital products = ONLY way to create truly passive, scalable income. Create once, sell infinitely. No cap on earnings. No time trading. Opposite of every other hustle.<br><br><strong>Categories:</strong> Guides/PDFs ($27–$97): "Top 20 Side Hustles" ($27), "UGC Portfolio Playbook" ($47), "Make Templates" ($67). 10–20 hrs. 100 sales × $37 = $3,700. Templates ($37–$79): Notion budget, Sheets expense, Canva social, Figma system. 15–30 hrs. 50 sales × $47 = $2,350. Courses ($97–$297): "Automation 30 Days" ($197), "UGC Complete" ($247), "Day Trading Beginner" ($297). 40–80 hrs + video + worksheets + community. 20–50 sales × $197 = $3,940–$9,850. Masterclasses ($397–$697): "Advanced Automation" ($497), "6-Figure UGC" ($597). 60–100 hrs. 10–30 sales × $497 = $4,970–$14,910. Bundles ($149–$399): "Ultimate UGC" (normally $213, bundled $149). Combine products. 30–80 sales × $149 = $4,470–$11,920.<br><br><strong>My She Boss Hustler roadmap:</strong> Mo 1: "Top 20 Guide" ($27) → 2K subscribers. 2% = 40 sales = $1,080. Mo 2: "UGC Starter Kit" ($47) → 3K reach. 1.5% = 45 sales = $2,115. Mo 3: "30-Day Bootcamp" ($197) → 4K reach. 1% = 40 sales = $7,880. Mo 4: "Bundle All Three" ($299) = $4,470. Year 1 projection: $20K–$40K. Year 2 (2x audience + new launches): $60K–$120K.<br><br><strong>Where to sell:</strong> Gumroad (my favorite): 10% commission, instant payouts, simple. Audience builds on Gumroad. Teachable: 5% commission on YOUR traffic. Better for courses. Email, landing pages, community. More powerful. Kajabi: All-in-one ($99+/mo). 4.9% commission. Best complex business. Podia: Like Teachable, simpler. 10%, no monthly fee. SendOwl: 8.5%, lightweight. Own audience.<br><br><strong>Launch strategy that works:</strong> 1) Build audience first. No audience = product flops. Content, email, followers. 2) Solve real problem. "Top 20 side hustles I tested paying $1K+ monthly—day trading community, automation blueprints, UGC templates." Specificity sells. 3) Validate first. "Would you buy a course on X?" 100+ yeses = build. 10 yeses = don't. 4) Launch to warm audience. Email, Instagram, TikTok. NOT cold ads (wastes $). 5) Create urgency. "Early bird $47 (regular $67). Through Friday." 6) Over-deliver quality. Video > slides. Worksheets matter. Community matters. Lifetime access matters. 7) Get testimonials. "Bought course, built automation, saved 10 hrs/week" = social proof. Sell more.<br><br><strong>Dream digital business (year 2):</strong> 5 products on Gumroad. $97 avg. 100 sales/month total (20 per product). $9,700/month revenue. $116,400/year. 5–10 hrs/week maintaining + support. 90%+ margins. Actual wealth building.</p></div>
+            </div>
+
+            <div class="hustle-card" id="tier4-youtube">
+                <div class="hustle-number editable">20</div>
+                <div class="hustle-name editable">YouTube / Blog Revenue</div>
+                <div class="hustle-vibe editable">Build an asset that appreciates over time</div>
+                <div class="hustle-details">
+                    <div class="detail-item"><span class="detail-icon">💰</span><div class="detail-content"><h4>Earning</h4><p class="editable">$500–$10K+/month</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">⏱️</span><div class="detail-content"><h4>Time to $</h4><p class="editable">3–12 months</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">💵</span><div class="detail-content"><h4>Startup</h4><p class="editable">$0</p></div></div>
+                    <div class="detail-item"><span class="detail-icon">🎥</span><div class="detail-content"><h4>Income</h4><p class="editable">Ads + affiliate + sponsors</p></div></div>
+                </div>
+                <div class="highlight-box"><p><span style="font-weight: 600; color: #8b7a6b;">🌟 Long game</span></p><p class="editable" style="margin-top: 10px;"><strong>Why YouTube/blogging = ultimate long-term asset:</strong> Create video ONCE. Earn money for YEARS. Video I made 3 years ago still generates views + revenue. That's compound growth. Downside: 3–12 months to make money. Upside: Year 2–3, you have income-generating asset on autopilot.<br><br><strong>Four income streams (compound):</strong> 1) Ad Revenue ($0.25–$4 per 1K views): Views × CPM ÷ 1K = monthly revenue. Example: 1M views/mo × $2 CPM = $2K/mo from ads alone. CPM varies: niche (finance/tech = $3–5, entertainment = $0.5–1), geography (US/UK higher, India lower), season (Q4 highest, summer lowest). Requirement: 1K subs + 4K watch hours to monetize (~6 mo consistent). 2) Sponsorships ($1K–$50K+ per video): 10K subs = $500–$2K. 50K = $2K–$5K. 100K = $5K–$25K. 500K = $15K–$50K+. Requirement: Sponsorship-friendly niche (SaaS, finance, tech = higher. Gaming, comedy = lower). 3) Affiliate (5–30% commission): Recommend with unique link. Viewer buys = earn commission. Example: $297 course at 30%. 50 people buy = $4,455/recommendation. Best for: SaaS, courses, high-ticket. Requirement: Engaged audience trusting you. 4) Own Products (90%+ margin): Guides, courses, masterclasses, coaching, groups. 100-sub channel launching $97 course = 2% conversion = 2 sales = $194. 5K-sub channel = 2% = 100 sales = $9,700. Requirement: Products to sell.<br><br><strong>Real examples (realistic):</strong> 50K tech channel (1M views/mo): AdSense: $3K. Sponsors (2/mo at $3K) = $6K. Affiliate (10 recs/mo, 1% conversion, $200 avg, 20% comm) = $2K. Products (20 course sales/mo at $197) = $3,940. Total: ~$14,940/mo = $179K/year. 200K finance channel (5M views/mo): AdSense: $12,500. Sponsors (4/mo at $8K) = $32K. Affiliate (20 recs/mo, 2% conversion at $500 avg) = $20K. Products (membership $29/mo, 500 members) = $14,500. Total: ~$79K/mo = $948K/year.<br><br><strong>Realistic timeline:</strong> Mo 1–3: Nobody phase. 3–4 videos/week. 100–500 views/video. Earnings: $0 (not monetized). Frustration: VERY HIGH (99% quit here). Mo 4–6: Breakthrough. Hit 1K subs + 4K hours. Monetized. First paycheck: $50–200. Videos getting 1K–5K views. Frustration: LOW earnings but money coming feels good. Mo 7–12: Momentum. 5K–10K subs. Earnings: $200–$1K from ads + early affiliates. Some videos 10K–50K views. Channel feels real. Year 2: Inflection. 20K–50K subs. Earnings: $1K–$5K diversified. Algorithm favors videos. Can land sponsorships. Year 3: Compounding. 50K–200K subs. Earnings: $5K–$25K+. Massive growth. Old videos earning. Launch premium products.<br><br><strong>Why most fail (how to avoid):</strong> 1) Quit too early. 2–3 months, see zero income, quit. Don't. Money in month 6+. 2) Inconsistent posting. Rewards consistency. 3 videos/week every week = growth. 1 video every 2 weeks = death. 3) Wrong niche. Pick niches where people spend money. Finance, SaaS, tech = high CPM. Gaming, lifestyle = low. 4) Chasing trends. Building niche authority takes time. Own ONE niche. 5) Not asking for clicks. Algorithm dead. Subs don't see videos (YouTube hides). NEED "Subscribe for more [niche]" callouts. 3–5x more views.<br><br><strong>5-year goal (if you commit):</strong> Year 5: 200K–500K subs. $20K–$100K/month from channel. Business worth $1M–$5M+. Not hype—realistic endgame for creators who stay consistent.</p></div>
+            </div>
+        </div>
+
+        <!-- AFFILIATE DISCLAIMER (BOTTOM) -->
+        <div class="disclaimer">
+            <p><strong>📝 Quick Note:</strong> Some links throughout this guide are affiliate links, and if you purchase or sign up through them, I earn a small commission at absolutely no extra cost to you. I genuinely only recommend products and tools that I actually use and love, so you can trust that I'm pointing you toward quality stuff. Thank you so much in advance for supporting me through those links — it truly means the world and helps me keep creating free content like this guide. 💙</p>
+        </div>
+
+        <!-- AFFILIATE LINKS SECTION (READY FOR YOU TO ADD) -->
+        <div class="affiliate-section" id="affiliate-links">
+            <h2>🔗 All Affiliate Links & Resources</h2>
+            <p style="margin-bottom: 30px; color: #7a6d64;">This section will house all the affiliate links mentioned throughout the guide. As you add new links, they'll be organized by hustle category for easy reference. You can add them here as you finalize your partnerships!</p>
+            
+            <h3 style="font-family: 'Dancing Script', cursive; color: #8b7a6b; margin-top: 30px; margin-bottom: 15px;">🤝 Ready to Add Your Links</h3>
+            <ul class="affiliate-links">
+                <li><strong>#1 Automation:</strong> [Make.com affiliate link]  — [Your link here]</li>
+                <li><strong>#2 Web Design:</strong> [Lovable affiliate link] — [Your link here]</li>
+                <li><strong>#2 Web Design:</strong> [Supabase affiliate link] — [Your link here]</li>
+                <li><strong>#2 Web Design:</strong> [Stripe affiliate link] — [Your link here]</li>
+                <li><strong>#3 Digital Products:</strong> [Gumroad link] — [Your link here]</li>
+                <li><strong>ADD MORE:</strong> [Product name] — [Your affiliate link]</li>
+            </ul>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <h3 class="editable">Ready to pick your hustle?</h3>
+            <p class="editable">Go back to the top, use the table of contents to find your hustle, and start this week.</p>
+            <p class="editable" style="margin-top: 20px; font-style: italic; color: #8b7a6b;">Real talk: You don't need all 20. You need one that you can start TODAY, and one more to stack once you've got the first one dialed in.</p>
+            <p class="editable" style="margin-top: 40px; color: #c4a8a0;"><strong>Questions?</strong> DM me on Instagram @shebosshustler</p>
+            <p class="editable" style="margin-top: 20px; font-family: 'Dancing Script', cursive; font-size: 1.3rem; color: #8b7a6b;">Let's move smart, not just hard. 👑</p>
+        </div>
+    </div>
+
+    <script>
+        function toggleEditMode() {
+            const button = document.querySelector('.edit-toggle');
+            document.body.classList.toggle('edit-mode');
+            const editables = document.querySelectorAll('.editable');
+            editables.forEach(el => {
+                el.contentEditable = document.body.classList.contains('edit-mode') ? 'true' : 'false';
+            });
+            button.textContent = document.body.classList.contains('edit-mode') ? '✅ Done Editing' : '✏️ Edit Mode';
+            saveEdits();
+        }
+        function saveEdits() {
+            const editables = document.querySelectorAll('.editable');
+            const data = {};
+            editables.forEach((el, index) => { data[index] = el.innerHTML; });
+            localStorage.setItem('sheGuideEdits', JSON.stringify(data));
+            const indicator = document.getElementById('saveIndicator');
+            indicator.classList.add('show');
+            setTimeout(() => { indicator.classList.remove('show'); }, 2000);
+        }
+        function loadEdits() {
+            const saved = localStorage.getItem('sheGuideEdits');
+            if (saved) {
+                const data = JSON.parse(saved);
+                const editables = document.querySelectorAll('.editable');
+                editables.forEach((el, index) => { if (data[index]) el.innerHTML = data[index]; });
+            }
+        }
+        document.addEventListener('input', (e) => { if (e.target.classList.contains('editable')) saveEdits(); });
+        document.addEventListener('DOMContentLoaded', loadEdits);
+    </script>
+</body>
+</html>
